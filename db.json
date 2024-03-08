@@ -1,0 +1,55 @@
+{
+    "users":[
+        {
+            "username":"Chaitanya",
+            "password":"123",
+            "role":"manager",
+            "id": 1
+        },
+        {
+            "username":"Balaji",
+            "password":"123",
+            "role":"manager",
+            "id": 6
+        },
+        {
+            "username":"Shivani",
+            "password":"123",
+            "role":"employee",
+            "id": 2
+            
+        },  
+        {
+            "username":"Raj",
+            "password":"123",
+            "role":"employee",
+            "id": 3
+        },
+        {
+            "username":"Rahul",
+            "password":"123",
+            "role":"customer",
+            "id": 4
+        },
+        {
+            "username":"Ramu",
+            "password":"123",
+            "role":"customer",
+            "id": 5
+        }
+    ],
+    "tickets":[],
+    "posts": [
+      { "id": "1", "title": "Javascript", "author":"typicode" },
+      { "id": "2", "title": "another title", "author": 200 }
+    ],
+    "comments": [
+      { "id": "1", "body": "a comment about post 1", "postId": "1" },
+      { "id": "2", "body": "another comment about post 1", "postId": "1" }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
+
+  
