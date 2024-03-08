@@ -1,9 +1,16 @@
+import { Outlet } from "react-router-dom";
+import "./App.css";
 function App() {
-  return ( 
+  return (
     <div className="App">
-      <h1>Hello World!</h1>
+      <header>
+        <h1>Customer Issues Tracking Project using React</h1>
+      </header>
+      <main>
+        <Outlet></Outlet>
+      </main>
     </div>
-   );
+  );
 }
 
 export default App;
